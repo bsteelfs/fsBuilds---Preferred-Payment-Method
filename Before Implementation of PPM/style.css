@@ -1,0 +1,40 @@
+:root {
+    /* FastSpring theme colours */
+    --fs-midnight: #1D224D;
+    --fs-black: #2C282A;
+    --fs-deep-purple: #3A3AA3;
+    --fs-periwinkle: #5D7EF4;
+    --fs-blue: #008AFF;
+    --fs-periwinkle-lightest: #EBF3FF;
+    --fs-purple-lightest: #EAEBF7;
+    --fs-blue-lightest: #EBF6FF;
+    --fs-aqua-lightest: #EEFBFE;
+    --fs-green-lightest: #F1FCFB;
+    --fs-border: #404040;
+    --fs-orange: #FC8258;
+    --fs-dark-orange: #C8661A;
+    --fs-grey: #8d8d8d;
+  }
+  
+  button {
+    border-radius: 6px;
+    box-shadow: 4px 4px 0 var(--fs-border);
+    cursor: pointer;
+    min-height: 36px;
+    min-width: 200px;
+    background-color: var(--fs-blue-lightest);
+    color: var(--fs-midnight);
+    padding: 6px;
+  }
+  
+  button:hover:enabled {
+    background-color: var(--fs-blue);
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+    background-color: var(--fs-grey);
+  }
